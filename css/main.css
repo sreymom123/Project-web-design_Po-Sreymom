@@ -4,28 +4,32 @@
     box-sizing: border-box;
 }
 body{
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  padding-left: 25px;
+  padding-right: 25px;
 }
-
 .container{
-    max-width: 1300px;
+    width: 100%;
     margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+    
+}
+.header{
+    background: rgb(205, 204, 204);
+    position: fixed;
+    width: 95.7%;
+    
 }
 .navbar{
     display: flex;
     align-items: center;
+    
+    
+    
     /* padding:20px ; */
 }
 nav{
     flex: 1;
     text-align: right;
+
 }
 nav ul{
     display: inline-block;
@@ -48,6 +52,7 @@ p{
     color: #ffffff;
 }
 .row{
+    margin-bottom: 24px;
     width: 100%;
     height: 600px;
     display: flex;
@@ -89,6 +94,7 @@ p{
     width: 100%;
 }
 .row1{
+    margin-bottom: 24px;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -142,8 +148,7 @@ p{
 .small-container{
     max-width: 1300px;
     margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+    
 }
 
 /* .row{
@@ -200,7 +205,8 @@ p{
 }
 
 .row2{
-    background-color: rgb(238, 211, 177);
+    margin-bottom: 24px;
+    background-color: rgb(188, 202, 197);
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -259,15 +265,91 @@ small{
 .btn:hover{
     background-color: #563434;
 }
-.col-6{
+/* .feedback{
+    padding-top: 100px;
+}
+.feedback .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0,1);
+    cursor: pointer;
+    transition: tra;
+}
+.feedback .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50px;
+} */
+/* .col-6{
     gap: 8px;
     flex-direction: column;
     display: flex;
     justify-content: center;
     
+} */
+/* .col-6 img{
+    
+} */
+.footer{
+    width: 100%;
+    background-color: rgb(151, 147, 147);
 }
-.col-6 img{
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.sociatIcons{
+    display: flex;
+    justify-content: center;
+}
+.sociatIcons a{
+    text-decoration: none;
+    padding: 5px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.sociatIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.sociatIcons a:hover{
+    background-color: rgb(110, 108, 108);
+    transition: 0.5s;
+}
+.sociatIcons a:hover​ i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+
+}
+.footerNav ul{
+    
+    display: flex;
+    justify-content: center;
     
 }
+.footerNav ul a{
+    
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerNav ul a:hover{
+    stop-opacity: 1 ;
+}
+.footerBottom{
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+
 
 
