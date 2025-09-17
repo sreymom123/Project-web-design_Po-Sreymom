@@ -48,7 +48,6 @@ a{
     text-decoration: none;
     color: #555;
 }
-
 p{
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
@@ -304,7 +303,16 @@ p{
 .footer .credit span{
     color: #ff523b;
 }
-
+/* Responsive Style */
+@media (max-width: 320px) {
+    .hero h1 {
+        font-size: 2.3rem;
+    }
+    
+    nav ul li {
+        margin-left: 15px;
+    }
+}
 
 
 
